@@ -137,3 +137,138 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
+.produto-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.apresentacao-produto{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+}
+
+.voltar{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.voltar-botao{
+    text-decoration: none;
+}
+
+.produto-conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-produto{
+    display: flex;
+}
+
+.preco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.avaliacoes-botao{
+    text-decoration: none;
+    color:  #3483fa;
+}
+
+.info-produto{
+    padding: 20px;
+    width: 500px;
+}
+
+.desc-produto{
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.detalhes-produto{
+    padding: 10px;
+}
+
+.compra-produto{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frete{
+    height: 50px;
+}
+
+.frete-gratis{
+    background-color: #00a650;
+    color: #ffffff;
+    width: 120px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.botao-quantidade{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.selecionar-qntd{
+    padding: 8px 8px 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #fff;
+}
+
+.btn-comprar{
+    padding: 20px;
+    margin: 5px;
+    border-color: #3483fa;
+    background-color: #3483fa;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: large;
+}
+
+.btn-carrinho{
+    padding: 20px;
+    margin: 5px;
+    border-color: rgba(65, 137, 230, .2);
+    background-color: rgba(65, 137, 230, .2);
+    border-radius: 20px;
+    color: #3483fa;
+    font-size: large;
+}
+
+#vendedor{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vendido-por{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+.avaliacoes-produto{
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    padding: 20px;
+}
+
+.avaliacoes-titulo{
+    display: flex;
+}
+
+.avaliacao{
+    padding: 20px;
+}

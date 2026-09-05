@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Produto 1</title>
+</head>
+<body>
+    <header>
+        <div class="div-header">
+            <img class="img-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6KbUzEnJVvD4NZPsEifMnojrUhFRjAuNSMuWMmjGfFA&s" alt="Logo do Mercado Preso">
+            <h1 class="titulo-logo">Mercado preso</h1>  
+            <input type="text" class="barra-pesquisa" id="barra-de-pesquisa" placeholder="Buscar produtos, marcas e muito mais...">
+        </div>
+    </header>
+    <main>
+        <div class="apresentacao-produto">
+            <div  class="voltar">
+                <a href="index.html" class="voltar-botao">← Voltar</a>
+            </div>
+            <div class="produto-conteudo">
+                <img src="https://placehold.co/500x500" alt="Imagem produto 1">
+                <div class="info-produto">
+                    <h1 class="titulo-produto">Produto 1</h1>
+                    <a href="#avaliacoes" class="avaliacoes-botao">4,5 ★★★★☆ (2)</a>
+                    <div class="preco">
+                        <h2 class="valor-produto">R$9,90</h2>
+                    </div>
+                    <p class="desc-produto">Produto de alta qualidade, perfeito para facilitar o seu dia a dia. Prático, moderno e feito para oferecer uma ótima experiência de uso.</p>
+                    <div class="detalhes-produto">
+                        <h3>Especificações</h3>
+                        <p><strong>Material - </strong>100% Algodão</p>
+                        <p><strong>Tamanho - </strong>Médio</p>
+                        <p><strong>Cor - </strong>Preto</p>
+                    </div>
+                </div>
+                <div class="compra-produto">
+                    <div class="frete">
+                        <p class="frete-gratis">FRETE GRÁTIS</p>
+                        <p>Chegará dentro das próximas 24h a partir do horário da compra</p>
+                    </div>
+                    <div class="botao-quantidade">
+                        <h4>Estoque: +500 disponíveis</h4>
+                        <label for="qntd">Quantidade</label>
+                        <select id="qntd" class="selecionar-qntd">
+                            <option value="1">1</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn-comprar">Comprar agora</button>
+                    <button type="button" class="btn-carrinho">Adicionar ao carrinho</button>
+                    <div id="vendedor">
+                        <img src="https://placehold.co/50x50" alt="Foto de perfil do vendedor">
+                        <div class="vendido-por">
+                            <p>Vendido por</p>
+                            <h4>Fulano de Tal</h4>
+                            <h4>+500 vendas</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="avaliacoes" class="avaliacoes-produto">
+            <h2 class="avaliacoes-titulo">Opniões</h2>
+                <div class="avaliacao">
+                    <h4>João Batista</h4>
+                    <p>5,0 ★★★★★</p>
+                    <p>Excelente produto, chegou rápido e com qualidade!</p>
+                </div>
+                <div class="avaliacao">
+                    <h4>Julia Oliveira</h4>
+                    <p>4,0 ★★★★☆</p>
+                    <p>Produto não atendeu todas minhas expectativas, porém é barato e chegou rápido...</p>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
